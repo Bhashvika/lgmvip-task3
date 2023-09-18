@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body {
+    background-image: 
+    url("https://img.freepik.com/free-photo/top-view-business-office-desk-background-applying-job-form-pen-pencil-eyeglasses-tree-wooden-table-background-with-copy-space_1921-21.jpg");
+min-height: 100vh;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+.container h1 {
+    text-align: center;
+    color:rgb(75, 9, 104);
+    padding-top: 30px;
+}
+.form-group {
+    margin: 20px auto;
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    margin-left:5%;
+    
+   justify-content: space-evenly;
+    color:rgb(33, 9, 65);
+    border-radius: 2rem;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    
+    margin-bottom: 5rem;
+}
+.frm {
+    padding: 2rem;
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 4px;
+    border:4px solid rgb(43, 21, 45);
+}
+.form label{
+    color: rgb(48, 4, 86);
+    font-style: oblique;
+}
+.form{
+    display: block;
+    width: 80%;
+    margin: 0.5rem ;
+    padding: 2px ;
+    border-radius: 0.3rem;
+    border: none;
+    outline: none;
+}
+
+.frm button {
+    font-size: 15px;
+    width: 30%;
+    padding: 0.4rem 0;
+    border-radius: 0.3rem;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3rem;
+    color: blueviolet;
+}
+.frm button:hover {
+    color:rgb(31, 67, 109);
+    background: rgb(123, 67, 125);
+}
+.h{
+    color:rgb(38, 17, 87);
+    text-align: center;
+}
+.form input {
+    margin: 0.5rem;
+}
+
+.box {
+    width: 40%;
+    border-radius: 1rem;
+    padding: 2rem;
+    height: auto;
+}
+.frm input[type="text"],
+.frm input[type="email"],
+.frm input[type="url"] {
+    display: block;
+    width: 100%;
+   padding: 0.5rem;
+    border-radius: 0.3rem;
+    border: none;
+    outline: none;
+}
+.box .card {
+    height: 100%;
+    overflow-y: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 240px));
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.activity .info button {
+    padding:  5px;
+    margin: 5px 0;
+    border-radius: 5px;
+    bottom: none;
+    cursor: pointer;
+    outline: none;
+    color:red;
+}
+.activity .info {
+    text-align: left;
+    color:indigo;
+}
